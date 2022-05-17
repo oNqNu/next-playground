@@ -1,5 +1,11 @@
 .container {
-  padding: 0 2rem;
+  padding: 4rem 10rem;
+}
+
+.section {
+  padding: 1rem;
+  border: solid;
+  border-color: #0070f3;
 }
 
 .main {
