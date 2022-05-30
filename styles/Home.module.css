@@ -3,9 +3,17 @@
 }
 
 .section {
+  margin-top: 1rem;
   padding: 1rem;
   border: solid;
   border-color: #0070f3;
+}
+
+.buttonSet {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  text-align: center;
 }
 
 .main {

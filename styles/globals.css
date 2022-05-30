@@ -24,6 +24,10 @@ h1 {
   color: rgb(11, 11, 21);
 }
 
+h4 {
+  margin: 0;
+}
+
 .buttonBox {
   width: 150px;
   display: flex;
