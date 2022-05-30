@@ -128,3 +128,19 @@
     flex-direction: column;
   }
 }
+
+.evalButton a {
+  margin: 0 auto;
+  padding: 1em 2em;
+  width: 100px;
+  color: #333;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #dfdfdf;
+  border-radius: 50vh;
+}
+
+.evalButton a:hover {
+  text-decoration: none;
+  background-color: #bbbbbb;
+}

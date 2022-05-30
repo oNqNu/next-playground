@@ -98,8 +98,11 @@ const Home: NextPage = () => {
             </select>
           </p>
         </form>
+        {formValues.result || formValues.result == 0 ? '計算結果' : ''}
         <h3>{formValues.result}</h3>
-        <button onClick={(e) => evaluation()}>Call API</button>
+        <div className={styles.evalButton} onClick={(e) => evaluation()}>
+          <a>Call API</a>
+        </div>
       </div>
     </div>
   )
